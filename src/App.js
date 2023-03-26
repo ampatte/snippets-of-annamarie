@@ -1,7 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Page from './Page';
+import Footer from './components/Footer';
 
 function App() {
+  const [pages] = useState([
+    {
+      name: 'about'
+    },
+    {
+      name: 'portfolio'
+    },
+    {
+      name: 'contact'
+    },
+    {
+      name: 'resume'
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +39,17 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header>
+        <nav>
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        </nav>
+      </Header>
+      <main>
+        <Page currentPage={currentPage}></Page>
+      </main>
+      <Footer/>
     </div>
   );
 }

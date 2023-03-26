@@ -1,5 +1,5 @@
 import React from 'react';
-import PageContent from '..?/PageContent';
+import Content from '../components/Content';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -25,7 +25,7 @@ function Page({ currentPage }) {
     return (
         <section>
             <h2>{ capitalizeFirstLetter (currentPage.name)}</h2>
-            <PageContent>{renderPage()}</PageContent>
+            <Content>{renderPage()}</Content>
         </section>
     )
 }

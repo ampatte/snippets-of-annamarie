@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Header from './Header';
-import Home from './pages/Home';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Home from '../Page/Home';
+import About from '../Page/About';
+import Portfolio from '../Page/Portfolio';
+import Contact from '../Page/Contact';
+import Resume from '../Page/Resume';
 
 export default function Content() {
   const [currentPage, setCurrentPage] = useState('Home');
