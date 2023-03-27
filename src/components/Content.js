@@ -39,3 +39,5 @@ export default function Content() {
     </div>
   );
 }
+
+Content();
