@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
+import Page from './components/Page';
 import Header from './components/Header';
-import Home from './Page/Home';
 import Footer from './components/Footer';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
         </nav>
       </Header>
       <main>
-        <Home currentPage={currentPage}></Home>
+        <Page currentPage={currentPage}></Page>
       </main>
       <Footer/>
     </div>
