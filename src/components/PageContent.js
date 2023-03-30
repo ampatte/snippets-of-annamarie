@@ -1,6 +1,6 @@
-import react from 'react';
+import './styles/Content.css';
 
-const PageContent = (props) => {
+function PageContent (props) {
     return (
         <div>
             { props.children }
