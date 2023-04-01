@@ -4,19 +4,23 @@ function Nav({pages, currentPage, setCurrentPage}) {
     console.log(pages)
     return (
         <ul className="nav nav-tabs">
-            <li className="nav-item" onClick={() => setCurrentPage(pages[0].name)}>
+            <li className="nav-item">
+            <a href='#about' onClick={() => setCurrentPage('About')}>
                 About Me
-            </li>
-            <li className="nav-item" onClick={() => setCurrentPage(pages[1].name)}>
+            </a></li>
+            <li className="nav-item">
+            <a href='#portfolio' onClick={() => setCurrentPage(pages[1].name)}>
             Portfolio
 
-            </li>
-            <li className="nav-item" onClick={() => setCurrentPage(pages[2].name)}>
+            </a></li>
+            <li className="nav-item">
+            <a href='#contact' onClick={() => setCurrentPage(pages[2].name)}>
             Contact
-            </li>
-            <li className="nav-item" onClick={() => setCurrentPage(pages[3].name)}>
+            </a></li>
+            <li className="nav-item">
+            <a href='#resume' onClick={() => setCurrentPage(pages[3].name)}>
               Resume
-            </li>
+              </a></li>
         </ul>
     
     );
