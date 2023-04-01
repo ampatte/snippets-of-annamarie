@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/Header.css';
 
-function Header({ currentPage, handleChange }) {
+function Header() {
     
   return (
-    <header style={styles.headerStyle}  className='header'>
+    <header  className='header'>
       <nav>
        
       </nav>

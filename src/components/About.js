@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <h1>About Me</h1>
       <p>
-       
+       hjg
       </p>
     </div>
   );
