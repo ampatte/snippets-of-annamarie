@@ -1,9 +1,10 @@
 import React from 'react';
 import mee from './../assets/portraits/mee.jpg';
 
+
 export default function About() {
   return (
-    <div>
+    <div className='about'>
       <h1>About Me</h1>
       <img className='img' src= {mee} alt='me'/>
       <p>
