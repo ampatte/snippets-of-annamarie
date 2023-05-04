@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/snippets-of-annamarie/static/css/main.047c7588.css",
+    "main.js": "/snippets-of-annamarie/static/js/main.e60400e4.js",
+    "static/media/loveletters.jpg": "/snippets-of-annamarie/static/media/loveletters.f02f552d2a9156c30647.jpg",
+    "static/media/resume-2-1616792.jpg": "/snippets-of-annamarie/static/media/resume-2-1616792.1933f39b568520490042.jpg",
+    "static/media/sky's_the_limit.jpg": "/snippets-of-annamarie/static/media/sky's_the_limit.dbe905853a2c2ac27d6f.jpg",
+    "static/media/mee.jpg": "/snippets-of-annamarie/static/media/mee.474029e8946c7d874fd3.jpg",
+    "index.html": "/snippets-of-annamarie/index.html",
+    "main.047c7588.css.map": "/snippets-of-annamarie/static/css/main.047c7588.css.map",
+    "main.e60400e4.js.map": "/snippets-of-annamarie/static/js/main.e60400e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.047c7588.css",
+    "static/js/main.e60400e4.js"
+  ]
+}
