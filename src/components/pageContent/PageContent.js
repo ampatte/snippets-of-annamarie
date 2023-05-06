@@ -1,4 +1,3 @@
-import './styles/Content.css';
 
 function PageContent (props) {
     return (

@@ -7,7 +7,7 @@ import React from 'react';
 // < name={sampleOne.name} description={sampleOne.description}>
 // <a href= "https://github.com/ampatte"> GitHub </a>
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
@@ -17,3 +17,4 @@ export default function Portfolio() {
     </div>
   );
 }
+export default Portfolio;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
-import open_the_door from '../assets/backgrounds/open_the_door.jpg'
+import { validateEmail } from '../../utils/helpers';
+import open_the_door from '../../assets/backgrounds/open_the_door.jpg'
 
-export default function Contact() {
+function Contact() {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -82,3 +82,4 @@ export default function Contact() {
     </div>
   );
 }
+export default Contact
