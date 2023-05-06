@@ -3,7 +3,13 @@ import resume from '../assets/backgrounds/resume-2-1616792.jpg';
 
 export default function Resume() {
   return (
-    <div className='resume' style={{ backgroundImage:`url(${resume})` }}>
+    <div className='resume' style={
+      { backgroundImage:`url(${resume})`,
+        backgroundRepeat:'no-repeat',
+        backgroundPosition:'center',
+        backgroundSize:'cover',
+        height:'100vh'
+      }}>
       <h1>Resume</h1>
       <p>
     

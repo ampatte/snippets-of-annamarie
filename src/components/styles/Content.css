@@ -1,4 +1,4 @@
-/* .pic{
+.pic{
     
     background-repeat: no-repeat;
     background:fixed
@@ -7,10 +7,9 @@
 .img{
     border-image-outset: 50cm;
     border-radius: 5em; 
-} */
+} 
 
 
-/* 
 .portfolio{
     background-image: url(../../assets/backgrounds/sky\'s_the_limit.jpg)
 }
@@ -19,6 +18,3 @@
     background-image: url(../../assets/backgrounds/sky\'s_the_limit.jpg)
 }
 
-.resume{
-    background-image: url(../../assets/backgrounds/open_the_door.jpg)
-} */

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import open_the_door from '../assets/backgrounds/open_the_door.jpg'
 
 export default function Contact() {
 
@@ -34,7 +35,13 @@ export default function Contact() {
     setMessage('');
   }
   return (
-    <div>
+    <div style={
+      { backgroundImage:`url(${open_the_door})`,
+        backgroundRepeat:'no-repeat',
+        backgroundPosition:'center',
+        backgroundSize:'cover',
+        height:'100vh'
+      }}>
       <h1>Contact Page</h1>
         <div class="mb-3">
           <form className="form">

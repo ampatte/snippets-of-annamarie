@@ -1,15 +1,7 @@
-.nav {
-    background: #fa3447f3;
-    height: 60px;
+.header, .nav{
+    background: rgb(253, 162, 132);
   }
-  
-  .navbar a {
-    color: white;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin: 5px;
-    line-height: 3;
-  }
-  header{
+ 
+  /* header{
     background-image: url(../../assets/backgrounds/sky\'s_the_limit.jpg)
-  }
+  } */
