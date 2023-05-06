@@ -1,11 +1,10 @@
-import React from 'react';
-import './styles/Header.css';
+import React from 'react'
 
 function Header() {
-    
+ 
   return (
     <header  className='header'>
-      <h1>Anna Marie Patterson</h1>         
+    
     </header>
   );
 }
