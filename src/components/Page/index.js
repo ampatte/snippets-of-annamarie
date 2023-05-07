@@ -1,9 +1,9 @@
 import React from 'react';
-import PageContent from '../PageContent';
-import About from '../About';
-import Portfolio from '../Portfolio';
-import Contact from '../Contact';
-import Resume from '../Resume';
+import PageContent from '../pageContent/PageContent';
+import About from '../pageContent/About';
+import Portfolio from '../pageContent/Portfolio';
+import Contact from '../pageContent/Contact';
+import Resume from '../pageContent/Resume';
 
 function Page({ currentPage }) {
    

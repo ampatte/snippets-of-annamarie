@@ -31,7 +31,6 @@ function App() {
           currentPage={currentPage}
           setCurrentPage={setCurrentPage}
         />
-        
         <main>
           <Page currentPage={currentPage}></Page>
         </main>
