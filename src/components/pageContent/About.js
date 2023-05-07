@@ -3,7 +3,6 @@ import mee from '../../assets/portraits/mee.jpg';
 import loveletters from '../../assets/backgrounds/loveletters.jpg';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import { BorderAllRounded } from '@mui/icons-material';
 
 export default function About() {
   return (
