@@ -2,3 +2,27 @@
   text-align: center;
   background-color: rgb(236, 233, 230);
 }
+
+.nav, .header, .footer{
+  position: fixed;
+  background: rgb(253, 162, 132);
+  min-height:calc(100vh-100px);
+  width: 100vw
+}
+
+.nav{
+ 
+}
+.header{
+  top: 0;
+}
+
+.footer{
+  bottom: 0;
+  height: 5vh
+}
+
+.about{
+  overflow-y: scroll;
+  overflow-x: scroll
+}
