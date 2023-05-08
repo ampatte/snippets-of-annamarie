@@ -5,6 +5,7 @@
   "homepage": "https://ampatte.github.io/snippets-of-annamarie",
   "proxy": "http://localhost:3000",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
