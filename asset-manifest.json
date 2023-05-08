@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/snippets-of-annamarie/static/css/main.007929bf.css",
-    "main.js": "/snippets-of-annamarie/static/js/main.4b83c048.js",
+    "main.css": "/snippets-of-annamarie/static/css/main.692469ff.css",
+    "main.js": "/snippets-of-annamarie/static/js/main.8e7c3838.js",
     "static/media/loveletters.jpg": "/snippets-of-annamarie/static/media/loveletters.f02f552d2a9156c30647.jpg",
     "static/media/resume-2-1616792.jpg": "/snippets-of-annamarie/static/media/resume-2-1616792.1933f39b568520490042.jpg",
     "static/media/open_the_door.jpg": "/snippets-of-annamarie/static/media/open_the_door.38a1c14bb39543b02e42.jpg",
     "static/media/mee.jpg": "/snippets-of-annamarie/static/media/mee.474029e8946c7d874fd3.jpg",
     "index.html": "/snippets-of-annamarie/index.html",
-    "main.007929bf.css.map": "/snippets-of-annamarie/static/css/main.007929bf.css.map",
-    "main.4b83c048.js.map": "/snippets-of-annamarie/static/js/main.4b83c048.js.map"
+    "main.692469ff.css.map": "/snippets-of-annamarie/static/css/main.692469ff.css.map",
+    "main.8e7c3838.js.map": "/snippets-of-annamarie/static/js/main.8e7c3838.js.map"
   },
   "entrypoints": [
-    "static/css/main.007929bf.css",
-    "static/js/main.4b83c048.js"
+    "static/css/main.692469ff.css",
+    "static/js/main.8e7c3838.js"
   ]
 }
