@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import open_the_door from '../../assets/backgrounds/open_the_door.jpg'
+import open_the_door from '../../assets/backgrounds/open_the_door.jpg';
+import TextField from '@mui/material/TextField'
 
 function Contact() {
 
@@ -42,34 +43,49 @@ function Contact() {
         backgroundSize:'cover',
         height:'100vh'
       }}>
-      <h1>Contact Page</h1>
+      <h1 style={{paddingTop:'74px'}}>Contact Me</h1>
         <div class="mb-3">
-          <form className="form">
-            <input
+          <form autoComplete='off' className="form">
+            <TextField 
               value={name}
               name="name"
               onChange={handleInputChange}
               type="text"
-              placeholder="name"
+              placeholder="Name"
+              variant="outlined"
+              color='secondary'
+              fullWidth
+              required
               />
-            <input
+            <TextField 
               value={email}
               name="email"
               onChange={handleInputChange}
               type="email"
-              placeholder="email"
+              placeholder="Email"
+              variant="outlined"
+              color='secondary'
+              fullWidth
+              required
             />
-            <input
+            <TextField 
               value={message}
               name="message"
               onChange={handleInputChange}
               type="text"
-              placeholder="message"
-            />
+              placeholder="Message"
+              variant="outlined"
+              color='secondary'
+              multiline
+              rows={4}
+              fullWidth
+              required
+              />
+          
               <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label form="exampleFormControlTextarea1" class="form-label">Example textarea</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button type="button" onClick={handleFormSubmit}>
+          <button type="submit" className="mui-btn mui-btn--raised" onClick={handleFormSubmit}>
           Submit
         </button></div>
       </form>
@@ -80,6 +96,7 @@ function Contact() {
       )}
       </div>
     </div>
+    
   );
 }
 export default Contact

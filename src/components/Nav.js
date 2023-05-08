@@ -19,10 +19,9 @@ function Nav({pages, setCurrentPage}) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{fontFamily: 'Instrument Serif'}}><h2>Anna Marie Patterson</h2></Typography>
+          <Typography style={{fontFamily: 'Instrument Serif'}}>Anna Marie Patterson</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
             <ul className="nav nav-tabs">
                 <li className="nav-item">
                 <a href='#about me' onClick={() => setCurrentPage(pages[0].name)}>
@@ -44,7 +43,7 @@ function Nav({pages, setCurrentPage}) {
                 | Resume
                 </a></li> 
             </ul>
-          </Typography>
+         
         </AccordionDetails>
       </Accordion>    
         
