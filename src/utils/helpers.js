@@ -10,3 +10,8 @@ export function validateEmail(email) {
 export function removeHyphensAndCapitalize(string) {
     return string.replace(/-/g, ' ').replace(/(^\w|\s\w)/g, m => m.toUpperCase())
 }
+
+export function validatePhoneNumber(phone) {
+    var re = /^\(?([0-9]{3})\)?[-]?([0-9]{3})[-]?([0-9]{4})$/;
+    return re.test(String(phone))
+}

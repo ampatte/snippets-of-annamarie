@@ -1,102 +1,123 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import React, { useState, useRef } from 'react';
+import Card from '@mui/material/Card';
+import emailjs from '@emailjs/browser';
+import { validateEmail, validatePhoneNumber } from '../../utils/helpers';
 import open_the_door from '../../assets/backgrounds/open_the_door.jpg';
-import TextField from '@mui/material/TextField'
 
 function Contact() {
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const form = useRef();
+
   const [errorMessage, setErrorMessage] = useState('');
-
-  const handleInputChange = (e) => {
-      const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    if (inputType === 'name') {
-      setName(inputValue);
-    } else if (inputType === 'email') {
-      setEmail(inputValue);
-    } else if (inputType === 'message') {
-      setMessage(inputValue);
-    }
-  };
-
-  const handleFormSubmit = (e) => {
+    
+  const sendEmail = (e) => {
     e.preventDefault();
+    const email = form.current.email.value.trim();
 
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
     }
-    setName('');
-    setEmail('');
-    setMessage('');
-  }
-  return (
-    <div style={
-      { backgroundImage:`url(${open_the_door})`,
-        backgroundRepeat:'no-repeat',
-        backgroundPosition:'center',
-        backgroundSize:'cover',
-        height:'100vh'
-      }}>
-      <h1 style={{paddingTop:'74px'}}>Contact Me</h1>
-        <div class="mb-3">
-          <form autoComplete='off' className="form">
-            <TextField 
-              value={name}
-              name="name"
-              onChange={handleInputChange}
-              type="text"
-              placeholder="Name"
-              variant="outlined"
-              color='secondary'
-              fullWidth
-              required
-              />
-            <TextField 
-              value={email}
-              name="email"
-              onChange={handleInputChange}
-              type="email"
-              placeholder="Email"
-              variant="outlined"
-              color='secondary'
-              fullWidth
-              required
-            />
-            <TextField 
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              type="text"
-              placeholder="Message"
-              variant="outlined"
-              color='secondary'
-              multiline
-              rows={4}
-              fullWidth
-              required
-              />
-          
-              <div class="mb-3">
-            <label form="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button type="submit" className="mui-btn mui-btn--raised" onClick={handleFormSubmit}>
-          Submit
-        </button></div>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-      </div>
-    </div>
+  
+    const phone = form.current.phone.value
     
+
+    if (!validatePhoneNumber(phone)) {
+      setErrorMessage('Phone number is invalid')
+      return;
+    }
+
+    emailjs
+      .sendForm(
+        'service_5lakbf7',
+        'template_7r3kj4j',
+        form.current,
+        'cWOyCwMOFtVc9qOQi'
+      )
+      .then(
+        (result) => {
+        console.log(result.text);
+        },
+        (error) => {
+        console.log(error.text);
+        }
+      );  
+  };
+
+  return (
+    <div 
+      className='contact'
+      style={
+        { backgroundImage:`url(${open_the_door})`,
+          backgroundRepeat:'no-repeat',
+          backgroundSize:'cover',
+          height:'100vh'
+        }}>
+      <h1 style={{paddingTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
+      Contact Me</h1>
+
+        <Card 
+        className='cardForm'
+        style={{
+          backgroundColor: 'rgba(245,245,245, .5)'
+        }}>
+          <p style={{ fontFamily:'WindSong', fontSize:'xxx-large', fontWeight:''}}>
+            I'm open to work. Let's chat.
+          </p>
+          <p style={{fontFamily: 'Instrument Serif', fontSize:'x-large'}}
+          >
+            Do you have open opportunities? Are you looking to hire an up and coming developer?         
+            Fill out your contact information below, and leave me a message. I will get back with you!
+          </p>
+          <p style={{ fontFamily:'WindSong', fontSize:'xx-large'}}>Thank you!</p>
+          <form ref={form} onSubmit={sendEmail} autoComplete='off'>         
+            <input
+              className="form"
+              placeholder="Name"
+              name="name"
+              type="text" 
+              style={{
+                width:'44%'
+              }}               
+              />           
+            <input
+              className='form'
+              placeholder="Phone Number"
+              name="phone"
+              type="phone"
+              style={{
+                width:'44%'
+              }}  
+              />
+            <input
+              className='form'
+              placeholder="Email"
+              name="email"
+              type="email"
+              style={{
+                width:'91%'
+              }}  
+              />  
+            <input
+              className='form'
+              placeholder="Message" 
+              name="message"
+              type="text"
+              style={{
+                width:'91%',
+                height:'7rem'
+              }}  
+              />            
+            <input className='form' type="submit" value="Send" />
+          </form>
+        </Card>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+        
+    </div>    
   );
 }
 export default Contact
