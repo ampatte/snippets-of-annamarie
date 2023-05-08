@@ -1,5 +1,5 @@
 
-function PageContent (props) {
+function Content (props) {
     return (
         <div>
             { props.children }
@@ -7,4 +7,4 @@ function PageContent (props) {
     );
 }; 
 
-export default PageContent;
+export default Content;

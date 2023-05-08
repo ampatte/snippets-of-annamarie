@@ -1,5 +1,5 @@
 import React from 'react';
-import PageContent from '../pageContent/PageContent';
+import Content from '../pageContent/Content';
 import About from '../pageContent/About';
 import Portfolio from '../pageContent/Portfolio';
 import Contact from '../pageContent/Contact';
@@ -24,7 +24,7 @@ function Page({ currentPage }) {
 
     return (
         <section>
-            <PageContent>{renderPage()}</PageContent>
+            <Content>{renderPage()}</Content>
         </section>
     )
 }
