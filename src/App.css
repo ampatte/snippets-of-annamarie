@@ -10,7 +10,7 @@
 
 .nav, .header, .footer{
   position: fixed;
-  background: rgb(253, 162, 132);
+  background: rgb(253, 150, 132);
   width: 100vw
 }
 

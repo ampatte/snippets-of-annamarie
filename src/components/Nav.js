@@ -10,7 +10,7 @@ function Nav({pages, setCurrentPage}) {
     console.log(setCurrentPage)
     return (
         <Accordion className='nav' style={{
-          backgroundColor:'rgb(253, 162, 132)',
+          backgroundColor:'rgb(253, 150, 132)',
           position:'absolute'
         }}
         >
@@ -19,7 +19,7 @@ function Nav({pages, setCurrentPage}) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{fontFamily: 'Instrument Serif'}}>Anna Marie Patterson</Typography>
+          <Typography style={{fontFamily:'Instrument Serif', fontSize:'x-large'}}>Anna Marie Patterson</Typography>
         </AccordionSummary>
         <AccordionDetails>
             <ul className="nav nav-tabs">

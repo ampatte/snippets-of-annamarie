@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import Card from '@mui/material/Card';
 import emailjs from '@emailjs/browser';
 import { validateEmail, validatePhoneNumber } from '../../utils/helpers';
-import open_the_door from '../../assets/backgrounds/open_the_door.jpg';
+import tree from '../../assets/backgrounds/tree.jpg';
 
 function Contact() {
 
@@ -48,12 +48,12 @@ function Contact() {
     <div 
       className='contact'
       style={
-        { backgroundImage:`url(${open_the_door})`,
+        { backgroundImage:`url(${ tree })`,
           backgroundRepeat:'no-repeat',
           backgroundSize:'cover',
           height:'100vh'
         }}>
-      <h1 style={{paddingTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
+      <h1 style={{marginTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
       Contact Me</h1>
 
         <Card 
