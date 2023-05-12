@@ -31,19 +31,8 @@ function Portfolio() {
     
       <h1 style={{marginTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>Portfolio</h1>
       
-      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
-      >
-      <CardMedia className='img' 
-        component="img"
-        height="325"
-        style={
-        { backgroundImage:`url(${LifeInFocus})`}}
-      />
-      </Card>
-
-      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
-      >
-      <CardMedia className='img' 
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}>
+      <CardMedia className='projects' 
         component="img"
         height="325"
         style={
@@ -51,19 +40,31 @@ function Portfolio() {
       />
       </Card>
 
-      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
-      >
-      <CardMedia className='img' 
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}>
+      <CardMedia className='projects' 
         component="img"
         height="325"
         style={
         { backgroundImage:`url(${WhatsTheWeather})`}}
       />
       </Card>
-      
+      <Card  
+        sx={{ 
+          maxWidth:'50%', 
+          marginLeft:'15%',
+          marginright:'15%',
+          }}>      
+        <a href="https://ampatte.github.io/LifeInFocus/" target="_blank" rel="noreferrer">
+          <img className='projects'
+            src={LifeInFocus} 
+            alt="Life In Focus"
+           
+          ></img>
+        </a>
+      </Card>
       <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
       >
-      <CardMedia className='img' 
+      <CardMedia className='projects' 
         component="img"
         height="325"
         style={
@@ -73,7 +74,7 @@ function Portfolio() {
 
       <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
       >
-      <CardMedia className='img' 
+      <CardMedia className='projects' 
         component="img"
         height="325"
         style={
@@ -82,7 +83,7 @@ function Portfolio() {
       </Card>
      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
       >
-      <CardMedia className='img' 
+      <CardMedia className='projects' 
         component="img"
         height="325"
         style={
