@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/snippets-of-annamarie/static/css/main.692469ff.css",
-    "main.js": "/snippets-of-annamarie/static/js/main.8e7c3838.js",
+    "main.css": "/snippets-of-annamarie/static/css/main.07e52ce6.css",
+    "main.js": "/snippets-of-annamarie/static/js/main.6366754d.js",
+    "static/media/loginPage.png": "/snippets-of-annamarie/static/media/loginPage.2d8bccee96f91779cdcd.png",
     "static/media/loveletters.jpg": "/snippets-of-annamarie/static/media/loveletters.f02f552d2a9156c30647.jpg",
-    "static/media/resume-2-1616792.jpg": "/snippets-of-annamarie/static/media/resume-2-1616792.1933f39b568520490042.jpg",
-    "static/media/open_the_door.jpg": "/snippets-of-annamarie/static/media/open_the_door.38a1c14bb39543b02e42.jpg",
+    "static/media/resume.jpg": "/snippets-of-annamarie/static/media/resume.1933f39b568520490042.jpg",
+    "static/media/pexelsMigueláPadriñán.jpg": "/snippets-of-annamarie/static/media/pexelsMigueláPadriñán.4d5923298ad3d86d17ee.jpg",
+    "static/media/tree.jpg": "/snippets-of-annamarie/static/media/tree.c6cc0e9bffa07867ec50.jpg",
+    "static/media/weatherApp.png": "/snippets-of-annamarie/static/media/weatherApp.eb9a5fd9a5331c84ee0c.png",
+    "static/media/recipeFinder.png": "/snippets-of-annamarie/static/media/recipeFinder.4eaf173b32e1830763a4.png",
+    "static/media/employeeTracker.png": "/snippets-of-annamarie/static/media/employeeTracker.2be04147685d0b00c285.png",
     "static/media/mee.jpg": "/snippets-of-annamarie/static/media/mee.474029e8946c7d874fd3.jpg",
+    "static/media/JATE.png": "/snippets-of-annamarie/static/media/JATE.a385b954c054dc00f541.png",
+    "static/media/quiz.png": "/snippets-of-annamarie/static/media/quiz.e4bd496cc929d62d0b07.png",
     "index.html": "/snippets-of-annamarie/index.html",
-    "main.692469ff.css.map": "/snippets-of-annamarie/static/css/main.692469ff.css.map",
-    "main.8e7c3838.js.map": "/snippets-of-annamarie/static/js/main.8e7c3838.js.map"
+    "main.07e52ce6.css.map": "/snippets-of-annamarie/static/css/main.07e52ce6.css.map",
+    "main.6366754d.js.map": "/snippets-of-annamarie/static/js/main.6366754d.js.map"
   },
   "entrypoints": [
-    "static/css/main.692469ff.css",
-    "static/js/main.8e7c3838.js"
+    "static/css/main.07e52ce6.css",
+    "static/js/main.6366754d.js"
   ]
 }
