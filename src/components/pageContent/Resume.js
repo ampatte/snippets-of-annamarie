@@ -1,19 +1,19 @@
 import React from 'react';
-import resume from '../../assets/backgrounds/resume-2-1616792.jpg';
+import { Paper } from '@mui/material';
+import resume from '../../assets/backgrounds/resume.jpg';
 
  function Resume() {
   return (
     <div className='resume' style={
       { backgroundImage:`url(${resume})`,
         backgroundRepeat:'no-repeat',
-        backgroundPosition:'center',
         backgroundSize:'cover',
         height:'100vh'
       }}>
-      <h1>Resume</h1>
-      <p>
-    
-      </p>
+      <h1 style={{marginTop:'74px', fontFamily: 'WindSong', fontSize:'xxx-large', fontWeight:'bold'}}>Resume</h1>
+      <Paper elevation={8} >
+      <a href="https://ampatte.github.io/LifeInFocus/" target="_blank" rel="noreferrer"></a>
+      </Paper>
     </div>
   );
 }
