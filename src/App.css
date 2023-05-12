@@ -26,13 +26,9 @@
   height: 5vh
 }
 
-.about{
+.about, .contact, .portfolio{
   overflow-y: scroll;
   overflow-x: scroll
-}
-
-.contact{
-  overflow-y: scroll;
 }
 
 .cardForm{
@@ -53,3 +49,4 @@
   border-radius: .9rem;
   border-color: black;
 }
+

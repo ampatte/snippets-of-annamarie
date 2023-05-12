@@ -1,10 +1,14 @@
 import React from 'react';
-import Box from '@mui/material/Box'
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
 import pexelsMigueláPadriñán from '../../assets/backgrounds/pexelsMigueláPadriñán.jpg';
-import employeeTracker from '../../assets/backgrounds/employeeTracker.png';
-//import recipeFinderApp from '../../assets/backgroundsrecipeFinderApp.jpg';
-import loginPage from '../../assets/backgrounds/loginPage.png';
-import quiz from '../../assets/backgrounds/quiz.png';
+import WhatsTheWeather from '../../assets/projects/weatherApp.png';
+import EmployeeTracker from '../../assets/projects/employeeTracker.png';
+import RecipeFinder from '../../assets/projects/recipeFinder.png';
+import JustAnnasTextEditor from '../../assets/projects/JATE.png';
+import LifeInFocus from '../../assets/projects/loginPage.png';
+import TestTime from '../../assets/projects/quiz.png';
+
 
 // const sampleOne ={
 //   name: '',
@@ -14,9 +18,10 @@ import quiz from '../../assets/backgrounds/quiz.png';
 // <a href= "https://github.com/ampatte"> GitHub </a>
 
 function Portfolio() {
+
   return (
     <div
-      className='contact'
+      className='portfolio'
       style={
         { backgroundImage:`url(${ pexelsMigueláPadriñán })`,
           backgroundRepeat:'no-repeat',
@@ -25,31 +30,65 @@ function Portfolio() {
         }}>
     
       <h1 style={{marginTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>Portfolio</h1>
-      <Box
       
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      >
+      <CardMedia className='img' 
+        component="img"
+        height="325"
         style={
-          { backgroundImage:`url(${ employeeTracker })`,
-            
-          }}>
-          [Github repo](https://github.com/ampatte/TrackMyBusiness)
-      </Box>
-      <Box
-        style={
-          { backgroundImage:`url(${ loginPage })`,
-          }}>
-      </Box>
-      <Box
-        style={
-          {
-          }}>
-          </Box>
-      <Box
-        style={
-          { backgroundImage:`url(${ quiz })`,
-          }}>
-          </Box>
+        { backgroundImage:`url(${LifeInFocus})`}}
+      />
+      </Card>
 
-     
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      >
+      <CardMedia className='img' 
+        component="img"
+        height="325"
+        style={
+        { backgroundImage:`url(${RecipeFinder})`}}
+      />
+      </Card>
+
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      >
+      <CardMedia className='img' 
+        component="img"
+        height="325"
+        style={
+        { backgroundImage:`url(${WhatsTheWeather})`}}
+      />
+      </Card>
+      
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      >
+      <CardMedia className='img' 
+        component="img"
+        height="325"
+        style={
+        { backgroundImage:`url(${TestTime})`}}
+      />
+      </Card>
+
+      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      >
+      <CardMedia className='img' 
+        component="img"
+        height="325"
+        style={
+        { backgroundImage:`url(${EmployeeTracker})`}}
+      />
+      </Card>
+     <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      >
+      <CardMedia className='img' 
+        component="img"
+        height="325"
+        style={
+        { backgroundImage:`url(${JustAnnasTextEditor})`}}
+      />
+      </Card>
     </div>
   );
 }
