@@ -12,15 +12,13 @@ export default function About() {
         backgroundRepeat:'no-repeat',
         backgroundSize:'cover',
         height:'100vh',
-        paddingTop:'20px'
+        paddingTop:'15px'
       }}>
       
       <span style={
         { fontFamily: 'WindSong',
-          paddingTop:'60px',
           backgroundColor: 'rgba(253, 162, 132, 0.5)',
-          margin:'8% 41% 2% 41%',
-          padding:'0 0 0 0',
+          margin:'5% 41% 0% 41%',
           display:'flex',
         }}>
           <h2>About Me</h2>
@@ -44,12 +42,12 @@ export default function About() {
           borderRadius:'25',
           fontFamily: 'Instrument Serif',
           fontWeight:'bolder',
-          fontSize:'large',
+          fontSize:'x-large',
           verticalAlign: 'middle',
         }
       }>            
         <p>
-        My name is Anna Marie and I am a Full Stack Web Developer! I am a former preschool teacher turned techie! I am also very artsy! Painting on canvas and almost any DIY will keep me busy for hours. Now that love has translated into a love for frontend development. Embarking on this complete career change has been such an exciting journey! For me, the most interesting part about web development is seeing the "how" of what is displayed on the screen and being a part of it's creation! In the past I've often said I should've been an engineer because I've always been interested in learning how things work. I come from a large family, where two of my four brothers are successful software developers. Becoming the third in the family is a goal of mine that I am ready to acheive!
+        My name is Anna Marie and I am a Full Stack Web Developer! I am a former preschool teacher turned techie! Embarking on this complete career change has been such an exciting journey! For me, the most interesting part about web development is seeing the "how" of what is displayed on the screen and being a part of it's creation! In the past I've often said I should've been an engineer because I've always been interested in learning how things work. I am also very artsy! Painting on canvas and almost any DIY will keep me busy for hours. Now that love is  translated into a love for frontend designing. I come from a large family, where two of my four brothers are successful software engineers. Becoming the third in the family is a goal of mine that I am ready to acheive!
         </p>     
       </Card>
     </div>
