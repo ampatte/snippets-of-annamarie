@@ -16,17 +16,26 @@ export default function About() {
       }}>
       
       <span style={
-        { fontFamily: 'WindSong',
-          backgroundColor: 'rgba(253, 162, 132, 0.5)',
-          margin:'5% 41% 0% 41%',
+        { backgroundColor: 'rgba(255, 255, 255, .9)',
+          margin:'8% 15% 0',
           display:'flex',
         }}>
-          <h2>About Me</h2>
-        </span>
+        <h2
+        style={{
+          fontFamily: 'WindSong',
+          fontSize:'xx-large',
+          }}>About Me</h2>
+      </span>
      
-      <Card sx={{ maxWidth: 325, marginLeft:'15%', inline:''}}
+      <Card 
+        sx={{
+          maxWidth: 325,
+          marginLeft:'15%',
+          padding:'.2%'
+        }}
       >
-      <CardMedia className='img' 
+      <CardMedia 
+        className='img' 
         component="img"
         height="325"
         style={
@@ -35,15 +44,14 @@ export default function About() {
       </Card>
       
       <Card style={
-        { backgroundColor: 'rgba(253, 162, 132, 0.5)',       
-          textAlign: 'center',
-          margin:'1% 15% 2% 15%',
+        { backgroundColor: 'rgba(255, 255, 255, .9)',
+          margin:'0 15% 5% 15%',
           display:'flex',
-          borderRadius:'25',
           fontFamily: 'Instrument Serif',
           fontWeight:'bolder',
           fontSize:'x-large',
           verticalAlign: 'middle',
+          padding:'.5%'
         }
       }>            
         <p>

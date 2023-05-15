@@ -5,7 +5,6 @@
 
 .App {
   text-align: center;
-  background-color: rgb(236, 233, 230);
 }
 
 .nav, .header, .footer{
@@ -23,7 +22,8 @@
 
 .footer{
   bottom: 0;
-  height: 5vh
+  height: 5vh;
+  color:white
 }
 
 .about, .contact, .portfolio, .resume{
@@ -52,7 +52,7 @@
 
 .projects {
   height:325;
-  width: 50vw;
-  margin-left:'15%';
-  margin-right:'15%';
+  width: 60vw;
 }
+
+

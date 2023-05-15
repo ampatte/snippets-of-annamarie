@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import Card from '@mui/material/Card';
 import pexelsMigueláPadriñán from '../../assets/backgrounds/pexelsMigueláPadriñán.jpg';
 import WhatsTheWeather from '../../assets/projects/weatherApp.png';
@@ -32,10 +33,9 @@ function Portfolio() {
       
       <Card  
         sx={{ 
-          marginBotton:'2%',
-          maxWidth:'50%', 
-          marginLeft:'15%',
-          marginright:'15%',
+          maxWidth:'60%', 
+          marginLeft:'20%',
+          marginBottom:'2%'
           }}>      
         <a href="https://ampatte.github.io/recipe-finder-app/" target="_blank" rel="noreferrer">
           <img className='projects'
@@ -43,15 +43,14 @@ function Portfolio() {
             alt="Recipe Finder"
           ></img>
         </a>
-        <a href= "https://github.com/ampatte/recipe-finder-app"> Recipe Finder Repo</a>
+        <a href= "https://github.com/ampatte/recipe-finder-app" className='animate__animated animate__heartBeat'> Recipe Finder Repo</a>
       </Card>
 
       <Card  
         sx={{ 
-          marginBotton:'2%',
-          maxWidth:'50%', 
-          marginLeft:'15%',
-          marginright:'15%',
+          marginBottom:'2%',
+          maxWidth:'60vw', 
+          marginLeft:'20%',
           }}>      
         <a href="https://ampatte.github.io/LifeInFocus/" target="_blank" rel="noreferrer">
           <img className='projects'
@@ -59,15 +58,14 @@ function Portfolio() {
             alt="Life In Focus"
           ></img>
         </a>
-        <a href= "https://github.com/ampatte/LifeInFocus"> Life In Focus Repo</a>
+        <a href= "https://github.com/ampatte/LifeInFocus" className='animate__animated animate__heartBeat'> Life In Focus Repo</a>
       </Card>
 
       <Card  
         sx={{ 
-          marginBotton:'2%',
-          maxWidth:'50%', 
-          marginLeft:'15%',
-          marginright:'15%',
+          marginBottom:'2%',
+          maxWidth:'60vw', 
+          marginLeft:'20%',
           }}>      
         <a href="https://ampatte.github.io/recipe-finder-app/" target="_blank" rel="noreferrer">
           <img className='projects'
@@ -75,15 +73,14 @@ function Portfolio() {
             alt="What's The Weather"
           ></img>
         </a>
-        <a href= "https://github.com/ampatte/WhatsTheWeather"> What's The Weather Repo</a>
+        <a href= "https://github.com/ampatte/WhatsTheWeather" className='animate__animated animate__heartBeat'> What's The Weather Repo</a>
       </Card>
       
       <Card
         sx={{ 
           marginBottom:'2%',
-          maxWidth:'50%', 
-          marginLeft:'15%',
-          marginright:'15%',
+          maxWidth:'60%', 
+          marginLeft:'20%',
           }}>      
         <a href="https://ampatte.github.io/TestTime/" target="_blank" rel="noreferrer">
           <img className='projects'
@@ -91,15 +88,14 @@ function Portfolio() {
             alt="Test Time!"
           ></img>
         </a>
-        <a href= "https://github.com/ampatte/TestTime"> Test Time! Repo</a>
+        <a href= "https://github.com/ampatte/TestTime" className='animate__animated animate__heartBeat'> Test Time! Repo</a>
       </Card>
       
       <Card  
         sx={{ 
-          marginBotton:'2%',
-          maxWidth:'50%', 
-          marginLeft:'15%',
-          marginright:'15%',
+          marginBottom:'2%',
+          maxWidth:'60%', 
+          marginLeft:'20%',
           }}>      
         <a href="https://ampatte.github.io/TrackMyBusiness/" target="_blank" rel="noreferrer">
           <img className='projects'
@@ -107,14 +103,13 @@ function Portfolio() {
             alt="Track My Business"
           ></img>
         </a>
-        <a href= "https://watch.screencastify.com/v/GPVcaU1jGiwceCd3X5C5"> Track My Business Repo</a>
+        <a href= "https://watch.screencastify.com/v/GPVcaU1jGiwceCd3X5C5" className='animate__animated animate__heartBeat'> Track My Business Repo</a>
       </Card>
 
       <Card  
         sx={{ 
-          maxWidth:'50%', 
-          marginLeft:'15%',
-          marginRight:'15%',
+          maxWidth:'60%', 
+          marginLeft:'20%',
           marginBottom:'5%'
           }}>      
         <a href="https://ampatte.github.io/OnMyTeam/" target="_blank" rel="noreferrer">
@@ -123,7 +118,7 @@ function Portfolio() {
             alt="On My Team"
           ></img>
         </a>
-        <a href= "https://watch.screencastify.com/v/SWSUfCTzKQB19dqHJ2Eq"> On My Team Repo</a>
+        <a href= "https://watch.screencastify.com/v/SWSUfCTzKQB19dqHJ2Eq" className='animate__animated animate__heartBeat'> On My Team Repo</a>
       </Card>
     </div>
   );
