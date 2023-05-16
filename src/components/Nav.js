@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
-function Nav({}) {
+function Nav() {
     return (
         <Accordion className='nav' style={{
           backgroundColor:'rgb(253, 150, 132)',
