@@ -22,7 +22,7 @@
   This application runs in a browser. Just follow the url.
 
   ## Usage
-  This app was created as a homework assignment to expand skills in React. It showcases other projects and assignments that I have created or contributed. This is was created using create-react-app along with Material UI and React-Router-Dom installed for added functionality.
+  This app was created as a homework assignment to expand skills in React. It showcases other projects and assignments that I have created or made contributions. This is was created using create-react-app along with Material UI and React-Router-Dom installed for added functionality.
 
   ![alt text](src/assets/screenshots/snippets.png)
   
@@ -30,12 +30,12 @@
   Anna Marie. I am the only contributor.
 
   ## Test
-  This can be tested using MongoDB or Insomnia.
+  This can be tested by by navigating through all of the links.
 
   ## Questions?
   - [Github link](https://github.com/ampatte)
   - [Email link](ampatte717@gmail.com)
-  - fill out the form on the Contact page 
+  - Complete the form on the Contact page 
 
   ## License
     This project is covered under the MIT license.(https://choosealicense.com/licenses/mit/)
