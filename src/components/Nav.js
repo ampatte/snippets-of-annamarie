@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from "react-router-dom";
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -6,8 +7,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
-function Nav({pages, setCurrentPage}) {
-    console.log(setCurrentPage)
+function Nav({}) {
     return (
         <Accordion className='nav' style={{
           backgroundColor:'rgb(253, 150, 132)',
@@ -19,31 +19,23 @@ function Nav({pages, setCurrentPage}) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{fontFamily:'Instrument Serif', fontSize:'x-large'}}>Anna Marie Patterson</Typography>
+       
+          <Typography style={{ fontFamily:'Windsong', fontSize:'xx-large', textAlign:'center'}}> Snippets of Anna Marie </Typography>
+          
         </AccordionSummary>
         <AccordionDetails>
-            <ul className="nav nav-tabs">
-                <li className="nav-item">
-                <a href='#about me' onClick={() => setCurrentPage(pages[0].name)}>
-                About Me  
-                </a></li>
-
-                <li className="nav-item">
-                <a href='#portfolio' onClick={() => setCurrentPage(pages[1].name)}>
-                | Portfolio 
-                </a></li>
-
-                <li className="nav-item">
-                <a href='#contact' onClick={() => setCurrentPage(pages[2].name)}>
-                | Contact Me
-                </a></li>
-
-                <li className="nav-item">
-                <a href='#resume' onClick={() => setCurrentPage(pages[3].name)}>
-                | Resume
-                </a></li> 
-            </ul>
-         
+          <Link className="link" to="/About">
+            About Me
+          </Link>
+          <Link className="link" to="/Portfolio">
+            |Portfolio
+          </Link>
+          <Link className="link" to="/Contact">
+            |Contact Me
+          </Link>
+          <Link className="link" to="/Resume">
+            |Resume
+          </Link>
         </AccordionDetails>
       </Accordion>    
         
