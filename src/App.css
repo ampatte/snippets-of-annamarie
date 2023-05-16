@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Style+Script&family=WindSong:wght@500&display=swap');
+
+
+
+.App {
+  text-align: center;
+}
+
+.nav, .header, .footer{
+  position: fixed;
+  background: rgb(253, 150, 132);
+  width: 100vw
+}
+
+.nav-item{
+ color:green
+}
+.header{
+  top: 0;
+}
+
+.footer{
+  bottom: 0;
+  height: 5vh;
+  color:white
+}
+
+.about, .contact, .portfolio, .resume{
+  overflow-y: scroll;
+  overflow-x: scroll
+}
+
+.cardForm{
+  padding:1%;
+  margin-top:5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom:25%;
+}
+
+.form{
+  height: 3rem;
+  padding: 10px 15px;
+  margin-bottom:1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-sizing: border-box;
+  border-radius: .9rem;
+  border-color: black;
+}
+
+.projects {
+  height:325;
+  width: 60vw;
+}
+
+
