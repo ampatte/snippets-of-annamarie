@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/snippets-of-annamarie/static/css/main.d8c431e1.css",
+    "main.js": "/snippets-of-annamarie/static/js/main.22ae305e.js",
+    "static/media/loginPage.png": "/snippets-of-annamarie/static/media/loginPage.2d8bccee96f91779cdcd.png",
+    "static/media/loveletters.jpg": "/snippets-of-annamarie/static/media/loveletters.f02f552d2a9156c30647.jpg",
+    "static/media/resume.jpg": "/snippets-of-annamarie/static/media/resume.1933f39b568520490042.jpg",
+    "static/media/pexelsMigueláPadriñán.jpg": "/snippets-of-annamarie/static/media/pexelsMigueláPadriñán.4d5923298ad3d86d17ee.jpg",
+    "static/media/tree.jpg": "/snippets-of-annamarie/static/media/tree.c6cc0e9bffa07867ec50.jpg",
+    "static/media/weatherApp.png": "/snippets-of-annamarie/static/media/weatherApp.eb9a5fd9a5331c84ee0c.png",
+    "static/media/recipeFinder.png": "/snippets-of-annamarie/static/media/recipeFinder.4eaf173b32e1830763a4.png",
+    "static/media/employeeTracker.png": "/snippets-of-annamarie/static/media/employeeTracker.2be04147685d0b00c285.png",
+    "static/media/mee.jpg": "/snippets-of-annamarie/static/media/mee.474029e8946c7d874fd3.jpg",
+    "static/media/OnMyTeam.png": "/snippets-of-annamarie/static/media/OnMyTeam.923bfc3cddde8b4a371d.png",
+    "static/media/quiz.png": "/snippets-of-annamarie/static/media/quiz.e4bd496cc929d62d0b07.png",
+    "index.html": "/snippets-of-annamarie/index.html",
+    "main.d8c431e1.css.map": "/snippets-of-annamarie/static/css/main.d8c431e1.css.map",
+    "main.22ae305e.js.map": "/snippets-of-annamarie/static/js/main.22ae305e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8c431e1.css",
+    "static/js/main.22ae305e.js"
+  ]
+}
