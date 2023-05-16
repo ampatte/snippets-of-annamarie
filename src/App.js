@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './components/pageContent/About';
 import Portfolio from './components/pageContent/Portfolio';
 import Contact from './components/pageContent/Contact';
@@ -19,7 +19,7 @@ function App() {
           <Nav 
           />
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/About" element={<About />} />
             <Route path="/About" element={<About />} />
             <Route path="/Portfolio" element={<Portfolio />} />
             <Route path="/Contact" element={<Contact />} />

@@ -1,8 +1,9 @@
 {
   "name": "snippets-of-annamarie",
+  "homepage": "https://ampatte.github.io/snippets-of-annamarie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ampatte.github.io/snippets-of-annamarie",
+  
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
