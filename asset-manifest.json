@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/snippets-of-annamarie/static/css/main.07e52ce6.css",
-    "main.js": "/snippets-of-annamarie/static/js/main.6366754d.js",
+    "main.css": "/snippets-of-annamarie/static/css/main.d8c431e1.css",
+    "main.js": "/snippets-of-annamarie/static/js/main.22285ce3.js",
     "static/media/loginPage.png": "/snippets-of-annamarie/static/media/loginPage.2d8bccee96f91779cdcd.png",
     "static/media/loveletters.jpg": "/snippets-of-annamarie/static/media/loveletters.f02f552d2a9156c30647.jpg",
     "static/media/resume.jpg": "/snippets-of-annamarie/static/media/resume.1933f39b568520490042.jpg",
@@ -11,14 +11,14 @@
     "static/media/recipeFinder.png": "/snippets-of-annamarie/static/media/recipeFinder.4eaf173b32e1830763a4.png",
     "static/media/employeeTracker.png": "/snippets-of-annamarie/static/media/employeeTracker.2be04147685d0b00c285.png",
     "static/media/mee.jpg": "/snippets-of-annamarie/static/media/mee.474029e8946c7d874fd3.jpg",
-    "static/media/JATE.png": "/snippets-of-annamarie/static/media/JATE.a385b954c054dc00f541.png",
+    "static/media/OnMyTeam.png": "/snippets-of-annamarie/static/media/OnMyTeam.923bfc3cddde8b4a371d.png",
     "static/media/quiz.png": "/snippets-of-annamarie/static/media/quiz.e4bd496cc929d62d0b07.png",
     "index.html": "/snippets-of-annamarie/index.html",
-    "main.07e52ce6.css.map": "/snippets-of-annamarie/static/css/main.07e52ce6.css.map",
-    "main.6366754d.js.map": "/snippets-of-annamarie/static/js/main.6366754d.js.map"
+    "main.d8c431e1.css.map": "/snippets-of-annamarie/static/css/main.d8c431e1.css.map",
+    "main.22285ce3.js.map": "/snippets-of-annamarie/static/js/main.22285ce3.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e52ce6.css",
-    "static/js/main.6366754d.js"
+    "static/css/main.d8c431e1.css",
+    "static/js/main.22285ce3.js"
   ]
 }
