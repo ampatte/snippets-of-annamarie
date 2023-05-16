@@ -64,7 +64,7 @@ function Contact() {
         </p>
         <p style={{fontFamily: 'Instrument Serif', fontSize:'x-large'}}>
           Do you have open opportunities? Are you looking to hire an up and coming developer?         
-          Fill out your contact information below, and leave me a message. I will get back with you!
+          Fill out your contact information below, and leave me a message. You can also email me directly at ampatterson1@hotmail.com. I will get back with you!
         </p>
         <p style={{ fontFamily:'WindSong', fontSize:'xx-large'}}>Thank you!</p>
         <form
