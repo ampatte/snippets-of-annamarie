@@ -19,10 +19,9 @@ function Nav({}) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-       
           <Typography style={{ fontFamily:'Windsong', fontSize:'xx-large', textAlign:'center'}}> Snippets of Anna Marie </Typography>
-          
         </AccordionSummary>
+        
         <AccordionDetails>
           <Link className="link" to="/About" style={{color:'green'}}>
             About Me

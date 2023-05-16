@@ -34,7 +34,7 @@ import resume from '../../assets/backgrounds/resume.jpg';
               <ul style={{fontWeight:'bold', textAlign:'left', paddingRight:'2%', paddingBottom:'1%'}}>
                 <li>Programming Languages: HTML, CSS, JavaScript, SQL, Python-currently learning </li>
                   <br></br>
-                <li>Libraries & Frameworks: Node, Express, React, JSX, Handlebars, jQuery, Bootstrap, Pure.CSS, Materialize, MERN stack, Mongoose</li>
+                <li>Libraries & Frameworks: Node, Express, React, JSX, Handlebars, jQuery, EmailJS, Bootstrap, Pure.CSS, Materialize, MERN stack, Mongoose</li>
                   <br></br>
                 <li>Databases: MySQL, MongoDB</li>
                   <br></br>
