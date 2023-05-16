@@ -49,7 +49,7 @@ function Project() {
                 maxWidth:'60vw', 
                 marginLeft:'20%',
                 }}>      
-            <a href="https://ampatte.github.io/recipe-finder-app/">
+            <a href="https://ampatte.github.io/WhatsTheWeather/">
                 <img className='projects'
                 src={WhatsTheWeather} 
                 alt="What's The Weather"
