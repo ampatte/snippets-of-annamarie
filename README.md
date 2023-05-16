@@ -23,7 +23,8 @@
 
   ## Usage
   This app was created as a homework assignment to expand skills in React. It showcases other projects and assignments that I have created or contributed. This is was created using create-react-app along with Material UI and React-Router-Dom installed for added functionality.
-  ![alt text](Assets/images/snippets.png)
+
+  ![alt text](src/assets/screenshots/snippets.png)
   
   ## Contribution
   Anna Marie. I am the only contributor.
