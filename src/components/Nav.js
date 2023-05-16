@@ -24,16 +24,16 @@ function Nav({}) {
           
         </AccordionSummary>
         <AccordionDetails>
-          <Link className="link" to="/About">
+          <Link className="link" to="/About" style={{color:'green'}}>
             About Me
           </Link>
-          <Link className="link" to="/Portfolio">
+          <Link className="link" to="/Portfolio" style={{color:'green'}}>
             |Portfolio
           </Link>
-          <Link className="link" to="/Contact">
+          <Link className="link" to="/Contact" style={{color:'green'}}>
             |Contact Me
           </Link>
-          <Link className="link" to="/Resume">
+          <Link className="link" to="/Resume" style={{color:'green'}}>
             |Resume
           </Link>
         </AccordionDetails>

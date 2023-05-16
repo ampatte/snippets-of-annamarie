@@ -56,61 +56,65 @@ function Contact() {
       <h1 style={{marginTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
       Contact Me</h1>
 
-        <Card 
+      <Card 
         className='cardForm'
-        style={{
-          backgroundColor: 'rgba(245,245,245, .5)'
-        }}>
-          <p style={{ fontFamily:'WindSong', fontSize:'xxx-large', fontWeight:''}}>
-            I'm open to work. Let's chat.
-          </p>
-          <p style={{fontFamily: 'Instrument Serif', fontSize:'x-large'}}
-          >
-            Do you have open opportunities? Are you looking to hire an up and coming developer?         
-            Fill out your contact information below, and leave me a message. I will get back with you!
-          </p>
-          <p style={{ fontFamily:'WindSong', fontSize:'xx-large'}}>Thank you!</p>
-          <form ref={form} onSubmit={sendEmail} autoComplete='off'>         
-            <input
-              className="form"
-              placeholder="Name"
-              name="name"
-              type="text" 
-              style={{
-                width:'44%'
-              }}               
-              />           
-            <input
-              className='form'
-              placeholder="Phone Number"
-              name="phone"
-              type="phone"
-              style={{
-                width:'44%'
-              }}  
-              />
-            <input
-              className='form'
-              placeholder="Email"
-              name="email"
-              type="email"
-              style={{
-                width:'91%'
-              }}  
-              />  
-            <input
-              className='form'
-              placeholder="Message" 
-              name="message"
-              type="text"
-              style={{
-                width:'91%',
-                height:'7rem'
-              }}  
-              />            
-            <input className='form' type="submit" value="Send" />
-          </form>
-        </Card>
+        style={{backgroundColor: 'rgba(245,245,245, .5)', marginTop:'0', paddingTop:'0'}}>
+        <p style={{fontFamily:'WindSong', fontSize:'xxx-large'}}>
+          I'm open to work. Let's chat.
+        </p>
+        <p style={{fontFamily: 'Instrument Serif', fontSize:'x-large'}}>
+          Do you have open opportunities? Are you looking to hire an up and coming developer?         
+          Fill out your contact information below, and leave me a message. I will get back with you!
+        </p>
+        <p style={{ fontFamily:'WindSong', fontSize:'xx-large'}}>Thank you!</p>
+        <form
+        ref={form}
+        onSubmit={sendEmail}
+        autoComplete='off'>         
+          <input
+            className="form"
+            placeholder="Name"
+            name="name"
+            type="text" 
+            style={{
+              width:'44%'
+            }}               
+          />           
+          <input
+            className='form'
+            placeholder="Phone Number"
+            name="phone"
+            type="phone"
+            style={{
+              width:'44%'
+            }}  
+          />
+          <input
+            className='form'
+            placeholder="Email"
+            name="email"
+            type="email"
+            style={{
+              width:'91%'
+            }}  
+          />  
+          <input
+            className='form'
+            placeholder="Message" 
+            name="message"
+            type="text"
+            style={{
+              width:'91%',
+              height:'7rem'
+            }}  
+          />            
+          <input
+            className='form'
+            type="submit"
+            value="Send"
+          />
+        </form>
+      </Card>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>

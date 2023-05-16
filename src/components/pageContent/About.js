@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import mee from '../../assets/portraits/mee.jpg';
 import loveletters from '../../assets/backgrounds/loveletters.jpg';
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
+
+import { Paper, Card, CardMedia } from '@mui/material';
 
 export default function About() {
   return (
@@ -12,20 +14,17 @@ export default function About() {
         backgroundRepeat:'no-repeat',
         backgroundSize:'cover',
         height:'100vh',
-        paddingTop:'15px'
+        paddingTop:'10px'
       }}>
       
-      <span style={
-        { backgroundColor: 'rgba(255, 255, 255, .9)',
-          margin:'8% 15% 0',
+      <Paper elevation={8} style={
+        { backgroundColor: 'rgba(245, 240, 240, .9)',
+          margin:'10% 15% 0',
+          fontSize:'xxx-large',
+          fontFamily:'WindSong',
           display:'flex',
-        }}>
-        <h2
-        style={{
-          fontFamily: 'WindSong',
-          fontSize:'xx-large',
-          }}>About Me</h2>
-      </span>
+        }}>About Me
+      </Paper>
      
       <Card 
         sx={{
@@ -38,25 +37,27 @@ export default function About() {
         className='img' 
         component="img"
         height="325"
-        style={
-        { backgroundImage:`url(${mee})`}}
+        title="Anna Marie Patterson"
+        alt="Anna Marie Patterson"
+        src={mee}
       />
       </Card>
       
       <Card style={
-        { backgroundColor: 'rgba(255, 255, 255, .9)',
+        { backgroundColor: 'rgba(245, 255, 255, .9)',
           margin:'0 15% 5% 15%',
           display:'flex',
           fontFamily: 'Instrument Serif',
-          fontWeight:'bolder',
           fontSize:'x-large',
           verticalAlign: 'middle',
           padding:'.5%'
         }
       }>            
-        <p>
-        My name is Anna Marie and I am a Full Stack Web Developer! I am a former preschool teacher turned techie! Embarking on this complete career change has been such an exciting journey! For me, the most interesting part about web development is seeing the "how" of what is displayed on the screen and being a part of it's creation! In the past I've often said I should've been an engineer because I've always been interested in learning how things work. I am also very artsy! Painting on canvas and almost any DIY will keep me busy for hours. Now that love is  translated into a love for frontend designing. I come from a large family, where two of my four brothers are successful software engineers. Becoming the third in the family is a goal of mine that I am ready to acheive!
-        </p>     
+        <Paper elevation={8}>
+        My name is Anna Marie and I am a Full Stack Web Developer! I am a former preschool teacher turned techie! Embarking on this complete career change has been such an exciting journey! For me, the most interesting part about web development is seeing the "how" of what is displayed on the screen and being a part of it's creation! In the past I've often said I should've been an engineer because I'm so interested in learning how things work. I am also very artsy! Creating something new, whether painting on canvas or doing a DIY project will keep me busy for hours. Now that love has been translated into a love for web design! I come from a large family, where two of my four brothers are successful software developers. Becoming the third in the family is a goal of mine that I am ready to acheive!
+        </Paper> 
+        <Link to="/contact" className='link' style={{color: 'green'}}>
+         Questions? Want to know more? Contact Me</Link>    
       </Card>
     </div>
   );
