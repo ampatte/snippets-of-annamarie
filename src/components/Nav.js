@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 
 
 
@@ -16,39 +18,26 @@ function Nav({pages, setCurrentPage}) {
           }}
         >
         
-          <nav>
+          <nav >
         
-            <div style={{ fontFamily:'Windsong', fontSize:'xx-large', textAlign:'center'}}> Snippets of Anna Marie </div>
-            
-        
+            <div> 
+            <Tabs>  
+            <Tab style={{ fontFamily:'Windsong', fontSize:'xx-large', textAlign:'center'}}> Snippets of Anna Marie </Tab>
+            <Tab label="About Me" 
+                 href='#about' onClick={() => setCurrentPage('about')}/>
 
-            <ul className="nav nav-tabs">
-              <li className="nav-item">
-                <a href='#about' onClick={() => setCurrentPage('about')}>
-                About Me  
-                </a>
-              </li>
+              <Tab label="Portfolio" 
+                 href='#portfolio' onClick={() => setCurrentPage('portfolio')}/>
 
-              <li className="nav-item">
-                <a href='#portfolio' onClick={() => setCurrentPage('portfolio')}>
-                | Portfolio 
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a href='#contact' onClick={() => setCurrentPage('contact')}>
-                | Contact Me
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a href='#resume' onClick={() => setCurrentPage('resume')}>
-                | Resume
-                </a>
-              </li> 
-            </ul>
-            
-           </nav>
+              <Tab label="Contact Me" 
+                 href='#contact' onClick={() => setCurrentPage('contact')}/>
+             
+              <Tab label="Resume" 
+                href='#resume' onClick={() => setCurrentPage('resume')}/>
+                
+              </Tabs>
+            </div>
+          </nav>
         </div>
     );
 }
