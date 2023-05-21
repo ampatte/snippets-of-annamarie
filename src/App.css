@@ -9,27 +9,41 @@ a:link {
   }
 
 a:hover {
-  background-color:rgb(253, 208, 208);
+  transition:rgb(253, 208, 208);
 }
 /* style={{color: 'green'}} activeStyle={{color: 'red'}} */
-.nav, .header, .footer{
+.nav,  .footer{
   position: fixed;
-  background: rgb(253, 150, 132);
-  width: 100vw
+  background: rgb(253, 159, 142);
+  width: 100vw;
+  border-top: thick double #4c4c4d;
+  border-bottom: thick double #4c4c4d
 }
 
 .header{
   top: 0;
 }
-
+.nav{
+  top:0
+}
 .footer{
   bottom: 0;
   height: 5vh;
 }
 
-.about, .contact, .portfolio, .resume{
-  overflow-y: scroll;
-  overflow-x: scroll
+.cards{
+  margin-right: 2%;
+  margin-left:2%;
+  margin-top:2%;
+}
+
+.cardPaper{
+  max-width:50%; 
+  margin-left:40%;
+  margin-bottom:2%;
+  padding-top:1%;
+  border:thick double;
+  border-color:black
 }
 
 .cardForm{

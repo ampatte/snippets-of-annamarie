@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '@mui/material/Card';
+import { Card, Stack } from '@mui/material';
 
 import TrackMyBusiness from '../../assets/projects/employeeTracker.png';
 import WhatsTheWeather from '../../assets/projects/weatherApp.png';
@@ -11,7 +11,7 @@ import TestTime from '../../assets/projects/quiz.png'
 function Project() {
 
     return(
-        <div className='project'>
+        <Stack className='project'>
 
             <Card  
             sx={{ 
@@ -103,7 +103,7 @@ function Project() {
             <a href="https://github.com/ampatte/OnMyTeam/"  style={{color:'green'}}> On My Team Repo</a>
             </Card>
 
-        </div>
+        </Stack>
     )
 
 }

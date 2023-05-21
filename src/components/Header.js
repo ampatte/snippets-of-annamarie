@@ -4,7 +4,9 @@ import Nav from './Nav.js';
 function Header() {
  
   return (
-    <header  className='header'>
+    <header  
+      className='header'
+    >
     
       <Nav/>
     
