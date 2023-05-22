@@ -1,45 +1,45 @@
 import * as React from 'react';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import { AlignHorizontalRight } from '@mui/icons-material';
+import {Tab, Tabs} from '@mui/material';
 
 
 
-function Nav({pages, setCurrentPage}) {
-
-  console.log(setCurrentPage)
-
+function Nav({ pages, currentPage, setCurrentPage}) {
 
   
   return (
-    <div 
-      className='nav'
-    >
-      <Tabs 
-        AlignHorizontalRight
-        style={{
-          marginBottom:'0%',
-          marginTop:'0%'
-        }}
-      >             
-      <p 
-        style={{ 
-          fontFamily:'Windsong', fontSize:'xx-large', paddingRight:'2rem',
-        }}>Snippets of Anna Marie
-      </p> 
-        <Tab label="About Me" 
-            href='#about' onClick={() => setCurrentPage('about')}/>
-
-        <Tab label="Portfolio" 
-          href='#portfolio' onClick={() => setCurrentPage('portfolio')}/>
-
-        <Tab label="Contact Me" 
-          href='#contact' onClick={() => setCurrentPage('contact')}/>
+    <div className='nav'>     
       
-        <Tab label="Resume" 
-          href='#resume' onClick={() => setCurrentPage('resume')}/>
-          
-      </Tabs>
+    <Tabs
+    variant="fullWidth"
+    scrollButtons={true} 
+    allowScrollButtonsMobile
+    style={{
+      fontSize:'small',
+      flexDirection:'column'}}
+    value={pages.findIndex(page => page.name === currentPage)}
+    onChange={(event, value) => setCurrentPage(pages[value].name)}
+  >              
+       
+        <Tab
+          label="About Me" 
+          href='#about' 
+        />
+
+        <Tab 
+          label="Portfolio" 
+          href='#portfolio' 
+        />
+
+        <Tab 
+          label="Contact Me" 
+          href='#contact' 
+        />
+      
+        <Tab
+          label="Resume" 
+          href='#resume' 
+        />
+      </Tabs>          
     </div>
   );
 }

@@ -1,9 +1,8 @@
-import * as React from 'react';
-import contact from './Contact.js';
+import  React from 'react';
 import { Paper, Card, Stack } from '@mui/material';
 import resume from '../../assets/backgrounds/resume.jpg';
 
- function Resume({pages, setCurrentPage}) {
+function Resume() {
   return (
     <div className='resume'>    
       <Stack>
@@ -12,12 +11,11 @@ import resume from '../../assets/backgrounds/resume.jpg';
           className='cards'
           elevation={8} 
           style={{
-            marginTop:'10%',
             textAlign:'center',
             fontSize:'xx-large',
             fontFamily:'WindSong',
             border:'thick double',
-            borderColor:'black'}}
+            borderColor:'4c4c4d'}}
         >Resume
         </Paper>
         
@@ -36,9 +34,10 @@ import resume from '../../assets/backgrounds/resume.jpg';
             className='cardPaper'
             elevation={8}>         
             <a 
-              href="https://docs.google.com/document/d/1btesVOORUT0eY3Gn7iUExqPXqNvJLylycXO5Hy0w4Wo/edit?usp=sharing"
-              style={
-                {color: 'black', fontWeight:'bold'}}>
+              href="https://drive.google.com/file/d/1IZQBtu6AV-nYqSb_hCUDRCgZFNry-N2J/view?usp=sharing"
+              target='_'
+              style={{
+                color: 'black', fontWeight:'bold'}}>
             Click here to view Resume
             </a>
           </Paper>
@@ -54,7 +53,7 @@ import resume from '../../assets/backgrounds/resume.jpg';
                 paddingBottom:'1%'}}>
                 <li>Languages: HTML, CSS, JavaScript, SQL </li>
                   <br></br>
-                <li>Libraries & Frameworks: Node, Express, React, JSX, Handlebars, jQuery, EmailJS, Bootstrap, Pure.CSS, Materialize, MERN stack, Mongoose</li>
+                <li>Libraries & Frameworks: Node, Express, React, JSX, Handlebars, jQuery, EmailJS, Bootstrap, Pure.CSS, Material UI, MERN stack, Mongoose</li>
                   <br></br>
                 <li>Databases: MySQL, MongoDB</li>
                   <br></br>
@@ -66,7 +65,12 @@ import resume from '../../assets/backgrounds/resume.jpg';
             className='cardPaper'
             elevation={8}>
             <p style={{fontWeight:'bolder'}}>Other Skills</p>
-              <ul style={{fontWeight:'bold', textAlign:'left', paddingRight:'2%', paddingBottom:'1%', marginBottom:'0'}}>
+              <ul style={{
+                fontWeight:'bold', 
+                textAlign:'left', 
+                paddingRight:'2%', 
+                paddingBottom:'1%', 
+                marginBottom:'0'}}>
                 <li>Customer Service</li>              
                 <li>Team Environment</li>
                 <li>Administrative Duties</li>

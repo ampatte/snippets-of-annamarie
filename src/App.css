@@ -4,6 +4,14 @@
   text-align: center;
 }
 
+.buttonLink{
+  width: 2rem;
+  height: .7rem;
+  border-radius: .7rem;
+  padding: 10px 20px;
+  box-shadow: 5px 3px 5px 3px  #6d6d6e;
+}
+
 a:link {
   text-decoration: none;
   }
@@ -11,30 +19,37 @@ a:link {
 a:hover {
   transition:rgb(253, 208, 208);
 }
-/* style={{color: 'green'}} activeStyle={{color: 'red'}} */
-.nav,  .footer{
-  position: fixed;
+
+.header{
+  border-top: thick double #4c4c4d;
+  border-bottom: thin #4c4c4d;
+}
+
+.header,.nav,.footer{
+  position:static;
   background: rgb(253, 159, 142);
   width: 100vw;
-  border-top: thick double #4c4c4d;
+}
+
+.nav{
+  position: static;
+  display:flex;
+  justify-items: center;
+  justify-content: center;
   border-bottom: thick double #4c4c4d
 }
 
-.header{
-  top: 0;
-}
-.nav{
-  top:0
-}
-.footer{
-  bottom: 0;
-  height: 5vh;
+.about, .portfolio, .contact, .resume{
+
+overflow-y:scroll
 }
 
 .cards{
   margin-right: 2%;
   margin-left:2%;
-  margin-top:2%;
+  margin-top:1%;
+  border:thick double;
+  border-color:#4c4c4d
 }
 
 .cardPaper{
@@ -43,14 +58,14 @@ a:hover {
   margin-bottom:2%;
   padding-top:1%;
   border:thick double;
-  border-color:black
+  border-color:#4c4c4d
 }
 
 .cardForm{
   padding:1%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom:25%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom:1%;
 }
 
 .form{
@@ -61,12 +76,29 @@ a:hover {
   margin-right: 1.5%;
   box-sizing: border-box;
   border-radius: .4rem;
-  border-color: black;
+  border-color: #4c4c4d
+}
+
+.project{
+  width:100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
 }
 
 .projects {
-  height:325;
-  width: 60vw;
+  width:30%;
+  padding:.5%;
+  border: thin double #4c4c4d;
 }
 
+.projectImg{
+  width: 100%;
+  box-shadow: 7px 5px 5px #4c4c4d;
+}
 
+.footer{
+  margin-top: 0%;
+  border-top: thick double #4c4c4d;
+  border-bottom: thick double #4c4c4d
+}

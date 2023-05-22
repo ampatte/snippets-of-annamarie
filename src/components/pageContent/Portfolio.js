@@ -15,7 +15,7 @@ function Portfolio() {
           height:'100vh'
         }}>
     
-      <h1 style={{marginTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>Portfolio</h1>
+      <h1 style={{ fontFamily: 'Instrument Serif', fontWeight:'bold'}}>Portfolio</h1>
       
       <Project/>
 

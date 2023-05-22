@@ -1,16 +1,20 @@
 import React from 'react';
-import Nav from './Nav.js';
 
 function Header() {
  
   return (
     <header  
       className='header'
-    >
+      style={{
+        
+          fontFamily:'Windsong', 
+          fontSize:'large', 
+        minWidth:'100%',
+        display: 'fixed',
+      }}
+    >Snippets of Anna Marie
     
-      <Nav/>
-    
-    </header>
+     </header>
   );
 }
 

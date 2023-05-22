@@ -1,12 +1,27 @@
 import React from 'react';
+import Tab from '@mui/material/Tab';
 
 function Footer() {
     return (
     <footer className='footer'>
         <div>
-            <a className='link' href= "https://github.com/ampatte" style={{color:'green'}}> GitHub </a>
-            <a className='link' href= "https://www.linkedin.com/in/annamarie-patterson-43a06525b"style={{color:'green'}}> | LinkedIn |</a>
-            <a className='link' href= "https://stackoverflow.com/users/21505790/ampatte"style={{color:'green'}}> Stack Overflow </a>
+              
+                <Tab 
+                    label="github" 
+                    className='' 
+                    href= "https://github.com/ampatte" 
+                    target='_'/>
+                <Tab 
+                    label='LinkedIn'
+                    className='' 
+                    href= "https://www.linkedin.com/in/annamarie-patterson-43a06525b"
+                    target='_'/>
+                <Tab
+                    label='Stack Overflow'
+                    className='link' 
+                    href= "https://stackoverflow.com/users/21505790/ampatte"
+                    target='_'/>
+            
         </div>
     </footer>
     );

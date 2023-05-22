@@ -53,7 +53,7 @@ function Contact() {
           backgroundSize:'cover',
           height:'100vh'
         }}>
-      <h1 style={{marginTop:'74px', fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
+      <h1 style={{ fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
       Contact Me</h1>
 
       <Card 
