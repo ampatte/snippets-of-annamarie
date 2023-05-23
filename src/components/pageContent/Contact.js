@@ -47,18 +47,23 @@ function Contact() {
   return (
     <div 
       className='contact'
-      style={
-        { backgroundImage:`url(${ tree })`,
-          backgroundRepeat:'no-repeat',
-          backgroundSize:'cover',
-          height:'100vh'
-        }}>
-      <h1 style={{ fontFamily: 'Instrument Serif', fontWeight:'bold'}}>
+      style={{
+        backgroundImage:`url(${ tree })`,
+        backgroundRepeat:'no-repeat',
+        backgroundSize:'cover',
+        height:'100vh'}}
+    >
+      <h1 style={{ 
+        fontFamily:'Instrument Serif', 
+        fontWeight:'bold'}}
+      >
       Contact Me</h1>
 
       <Card 
         className='cardForm'
-        style={{backgroundColor: 'rgba(245,245,245, .5)', marginTop:'0', paddingTop:'0'}}>
+        style={{
+          backgroundColor: 'rgba(245,245,245, .5)'}}
+      >
         <p style={{fontFamily:'WindSong', fontSize:'xxx-large'}}>
           I'm open to work. Let's chat.
         </p>

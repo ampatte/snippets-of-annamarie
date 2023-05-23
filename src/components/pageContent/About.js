@@ -38,7 +38,7 @@ export default function About() {
             alt="Anna Marie Patterson"
             src={mee}
             style={{
-              width:'30%',
+              width:'20%',
               border:'thin double',
               borderColor:'#4c4c4d',
               borderRadius:'.4rem'}}

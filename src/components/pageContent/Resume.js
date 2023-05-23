@@ -26,7 +26,7 @@ function Resume() {
             backgroundImage:`url(${resume})`,
             backgroundRepeat:'no-repeat',
             backgroundSize:'cover',            
-            marginBottom:'5%',
+            marginBottom:'2%',
             padding:'1%'}}  
         >
       
