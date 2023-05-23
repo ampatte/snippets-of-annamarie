@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/snippets-of-annamarie/static/css/main.31d8f7f4.css",
-    "main.js": "/snippets-of-annamarie/static/js/main.7b677d89.js",
+    "main.css": "/snippets-of-annamarie/static/css/main.08f96914.css",
+    "main.js": "/snippets-of-annamarie/static/js/main.68335178.js",
     "static/media/loginPage.png": "/snippets-of-annamarie/static/media/loginPage.2d8bccee96f91779cdcd.png",
     "static/media/resume.jpg": "/snippets-of-annamarie/static/media/resume.1933f39b568520490042.jpg",
     "static/media/pexelsMigueláPadriñán.jpg": "/snippets-of-annamarie/static/media/pexelsMigueláPadriñán.4d5923298ad3d86d17ee.jpg",
@@ -14,11 +14,11 @@
     "static/media/OnMyTeam.png": "/snippets-of-annamarie/static/media/OnMyTeam.923bfc3cddde8b4a371d.png",
     "static/media/quiz.png": "/snippets-of-annamarie/static/media/quiz.e4bd496cc929d62d0b07.png",
     "index.html": "/snippets-of-annamarie/index.html",
-    "main.31d8f7f4.css.map": "/snippets-of-annamarie/static/css/main.31d8f7f4.css.map",
-    "main.7b677d89.js.map": "/snippets-of-annamarie/static/js/main.7b677d89.js.map"
+    "main.08f96914.css.map": "/snippets-of-annamarie/static/css/main.08f96914.css.map",
+    "main.68335178.js.map": "/snippets-of-annamarie/static/js/main.68335178.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d8f7f4.css",
-    "static/js/main.7b677d89.js"
+    "static/css/main.08f96914.css",
+    "static/js/main.68335178.js"
   ]
 }
