@@ -21,7 +21,6 @@ function Contact() {
   
     const phone = form.current.phone.value
     
-
     if (!validatePhoneNumber(phone)) {
       setErrorMessage('Phone number is invalid')
       return;
@@ -37,11 +36,16 @@ function Contact() {
       .then(
         (result) => {
         console.log(result.text);
-        },
+        
+          if (form.current) {
+          form.current.reset();
+          }
+        }, 
+               
         (error) => {
         console.log(error.text);
         }
-      );  
+      );     
   };
 
   return (
