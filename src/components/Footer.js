@@ -14,7 +14,7 @@ function Footer() {
                 <Tab 
                     label='LinkedIn'
                     className='' 
-                    href= "https://www.linkedin.com/in/annamarie-patterson-43a06525b"
+                    href= "https://www.linkedin.com/in/anna-marie-patterson-"
                     target='_'/>
                 <Tab
                     label='Stack Overflow'
