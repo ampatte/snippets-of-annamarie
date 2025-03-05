@@ -19,7 +19,7 @@ function Contact() {
       return;
     }
   
-    const phone = form.current.phone.value
+    const phone = form.current.phone.value.trim();
     
     if (!validatePhoneNumber(phone)) {
       setErrorMessage('Phone number is invalid')
@@ -35,16 +35,16 @@ function Contact() {
       )
       .then(
         (result) => {
-        console.log(result.text);
+        console.log('Success!', result.text);
         
           if (form.current) {
           form.current.reset();
           }
         }, 
-               
+
         (error) => {
-        console.log(error.text);
-        }
+        console.log('Failed to send email. Please try again', error.text);
+        },
       );     
   };
 
