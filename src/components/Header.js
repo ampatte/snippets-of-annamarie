@@ -5,10 +5,9 @@ function Header() {
   return (
     <header  
       className='header'
-      style={{
-        
-          fontFamily:'Windsong', 
-          fontSize:'large', 
+      style={{        
+        fontFamily:'Windsong', 
+        fontSize:'large', 
         minWidth:'100%',
         display: 'fixed',
       }}

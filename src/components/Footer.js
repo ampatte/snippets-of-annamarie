@@ -3,9 +3,9 @@ import Tab from '@mui/material/Tab';
 
 function Footer() {
     return (
-    <footer className='footer'>
-        <div>
-              
+        <footer className='footer'>
+            <div>
+                
                 <Tab 
                     label="github" 
                     className='' 
@@ -21,9 +21,9 @@ function Footer() {
                     className='link' 
                     href= "https://stackoverflow.com/users/21505790/ampatte"
                     target='_'/>
-            
-        </div>
-    </footer>
+                
+            </div>
+        </footer>
     );
 }
 export default Footer;
