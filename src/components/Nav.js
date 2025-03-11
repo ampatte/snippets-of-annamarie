@@ -21,7 +21,7 @@ function Nav({ pages, currentPage, setCurrentPage}) {
   >              
        
         <Tab
-          label="About Me" 
+          label="About" 
           href='#about' 
         />
 
@@ -31,7 +31,7 @@ function Nav({ pages, currentPage, setCurrentPage}) {
         />
 
         <Tab 
-          label="Contact Me" 
+          label="Contact" 
           href='#contact' 
         />
       
