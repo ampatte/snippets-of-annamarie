@@ -50,9 +50,10 @@ export default function About() {
           elevation={8} 
           style={{
             padding:'2%',
-            marginBottom:'5%'}}
+            marginBottom:'5%',
+          }}
         >
-          My name is Anna Marie, and I am a Full Stack Web Developer. I am a former preschool and art teacher turned techie. Embarking on this career change has been such an exciting journey. The most facinating part about web development is seeing the "how" behind what is displayed on the screen. I am especially interested in the style element of development. Designing and Creating something new, has always been a point of motivation. Now that has been translated into a love for web development. I come from a large family, where two of my four brothers are successful software developers. Becoming the third in the family is a goal of mine that I'm prepared to acheive.
+          My name is Anna Marie, and I am a Full Stack Web Developer. I am a former preschool and art teacher turned techie. Embarking on this career change has been such an exciting journey. The most facinating part about web development is seeing the "how" behind what is displayed on the screen. I am especially interested in the style element of development. Designing and creating something new, has always been a point of motivation for me. That has now been translated into a love for web development. I come from a family, where two of my brothers are successful software developers. Becoming the third in the family is a goal of mine that I'm prepared to acheive.
           </Paper>
       </Stack>
     </div>
