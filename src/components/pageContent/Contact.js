@@ -26,7 +26,7 @@ function Contact() {
       }    
     
     if (!validatePhoneNumber(phone)) {
-      setErrorMessage('Phone number is invalid')
+      setErrorMessage(' a valid phone number is required')
       return;
       }
 
